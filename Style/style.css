@@ -131,10 +131,12 @@ nav {
 }
 
 .menu-nav {
+    height: inherit;
     width: 680px;
-    margin: 20px auto;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .menu-link {
@@ -151,10 +153,18 @@ nav {
 
 .promo {
     height: 613px;
-    background: #e8e8e8 url(../Img/Layer_24.jpg) 208% 100% no-repeat;
+    background: #e8e8e8;
+}
+
+.container-backimg {
+    height: inherit;
+    background: url(../Img/Layer_24.jpg) 0 100% no-repeat;
 }
 
 .content-promo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     height: 92px;
     border-left: 12px solid #f16d7f;
 }
@@ -167,14 +177,14 @@ nav {
     color: #222222;
     font-size: 60px;
     font-weight: 900;
-    line-height: 42px;
+    line-height: 45px;
     padding-left: 12px;
 }
 
 .promo-two {
     font-size: 40px;
     font-weight: 900;
-    line-height: 68px;
+    line-height: 30px;
     padding-left: 12px;
 }
 
@@ -269,8 +279,11 @@ h2 {
 .item {
     width: 261px;
     height: 364px;
-    margin-bottom: 39px;
     position: relative;
+}
+
+.item:not(:nth-child(-n+4)) {
+    margin-top: 39px;
 }
 
 .item-bay {
@@ -319,16 +332,14 @@ h2 {
     font-size: 13px;
     font-weight: 600;
     text-transform: uppercase;
-    margin-top: 13px;
-    margin-left: 14px;
+    margin: 13px 14px 0 14px;
 }
 
 .price-item {
     color: #f16d7f;
     font-size: 16px;
     font-weight: 700;
-    margin-top: 13px;
-    margin-left: 14px;
+    margin: 13px 14px 0 14px;
 }
 
 .all-items {
@@ -363,7 +374,7 @@ h2 {
 }
 
 .offer-board {
-    margin-top: 146px;
+    margin-top: 133px;
     margin-left: 39px;
     height: 78px;
     width: 293px
@@ -373,7 +384,6 @@ h2 {
     color: #ffffff;
     font-size: 54px;
     font-weight: 700;
-    line-height: 0.75;
 }
 
 .offer-board-one span {
@@ -384,7 +394,6 @@ h2 {
     color: #ffffff;
     font-size: 32px;
     letter-spacing: 0.9px;
-    line-height: 1.5;
 }
 
 .offer-content {
@@ -465,12 +474,10 @@ blockquote {
 
 .author {
     width: 84px;
-    height: 27px;
     margin-top: 19px;
-    font-weight: 700;
+    font-weight: 300;
     color: #222224;
     font-size: 12px;
-    font-weight: 300;
     letter-spacing: 0.3px;
     line-height: 14px;
 }
@@ -513,7 +520,8 @@ blockquote {
 
 .text-input {
     padding-left: 28px;
-    width: 254px;
+    padding-right: 28px;
+    width: 226px;
     height: inherit;
     border: none;
     background-color: #e1e1e1;
@@ -820,13 +828,14 @@ td:last-child {
 .postcode,
 .state-two {
     height: 45px;
-    width: 355px;
+    width: 329px;
     margin-top: 20px;
     border: 1px solid #eaeaea;
     color: #b1b1b1;
     font-size: 13px;
     font-weight: 300;
     padding-left: 12px;
+    padding-right: 12px;
 }
 
 .country select {
