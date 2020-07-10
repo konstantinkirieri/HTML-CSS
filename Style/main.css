@@ -132,6 +132,32 @@ nav {
 .menu-link:hover {
   color: #f16d7f; }
 
+.location {
+  height: 148px;
+  background-color: #f8f3f4; }
+
+.container-location {
+  height: inherit;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.location-name {
+  color: #f16d7f;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 20px; }
+
+.location-track {
+  font-size: 14px;
+  line-height: 20px;
+  color: #636363;
+  font-weight: 300; }
+
+.location-track span {
+  font-weight: 700;
+  color: #f16d7f; }
+
 .big-item {
   display: flex;
   justify-content: space-between;
