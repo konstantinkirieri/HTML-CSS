@@ -9,37 +9,45 @@
 </head>
 <body>
     <header>
-        <div class="container">
-            <div class="header-logo">
-                <img src="Img/Group_2.png" alt="logo">
-                <div class="name-brand">BRAN<span>D</span></div>
-            </div>
-            <form action="#" class="header-search">
-                <div class="location-search">Browser<i class="fas fa-caret-down"></i></div>
-                <input type="text" placeholder="Search for Item...">
+        <div class="container container-header">
+            <a href="#" class="header-logo">
+                <div class="box-logo">
+                    <img src="Img/Group_2.png" alt="logo">
+                    <p class="name-brand">BRAN<span>D</span></p>
+                </div>
+            </a>
+            <form class="search-form" action="#">
+                <div class="search">Browser<i class="fas fa-caret-down"></i></div>
+                <input type="search" placeholder="Search for Item...">
                 <button><i class="fas fa-search"></i></button>
             </form>
-            <div class="cart-icon">
-                <i class="fas fa-shopping-cart"></i>
-            </div>
-            <button  class="account-button">My Account</button>
+            <i class="fas fa-shopping-cart"></i>
+            <div class="account">My Account<i class="fas fa-caret-down"></i></div>
         </div>
     </header>
-    <nav class="nav-header">
-        <div class="container">
-            <div class="menu">
-                    <a href="#">HOME</a>
-                    <a href="#">MEN</a>
-                    <a href="#">WOMEN</a>
-                    <a href="#">KIDS</a>
-                    <a href="#">ACCOSERIESE</a>
-                    <a href="#">FEATURED</a>
-                    <a href="#">HOT DEALS</a>
-            </div>
+    <nav>
+        <div class="menu-nav">
+            <a href="#" class="menu-link">Home</a>
+            <a href="#" class="menu-link">Man</a>
+            <a href="#" class="menu-link">Women</a>
+            <a href="#" class="menu-link">Kids</a>
+            <a href="#" class="menu-link">Accoseriese</a>
+            <a href="#" class="menu-link">Featured</a>
+            <a href="#" class="menu-link">Hot Deals</a>
         </div>
     </nav>
+    <div class="location">
+        <div class="container container-location">
+            <div class="location-name">
+                NEW ARRIVALS
+            </div>
+            <div class="location-track">
+                HOME/MEN/<span>NEW ARRIVALS</span>
+            </div>
+        </div>
+    </div>
     <div class="big-item">
-        <div class="caret"><i class="fas fa-angle-left"></i></div>
+        <button class="caret"><i class="fas fa-angle-left"></i></button>
         <div class="container container-big-item">
             <img src="Img/single-page/women.jpg" alt="foto">
             <div class="description-item">
@@ -75,7 +83,7 @@
                 <button><i class="fas fa-shopping-cart"></i> <div class="assToCart">Add to Cart</div></button>
             </div>
         </div>
-        <div class="caret"><i class="fas fa-angle-right"></i></div>
+        <button class="caret"><i class="fas fa-angle-right"></i></button>
     </div>
     <h2>YOU MAY LIKE ALSO</h2>
         <div class="items container">
