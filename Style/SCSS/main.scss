@@ -10,7 +10,7 @@ a {
     text-decoration: none;
 }
 
-input:focus {
+input:focus, button:focus {
     outline: none;
 }
 
@@ -110,7 +110,7 @@ header {
     outline: none;
 }
 
-.fa-shopping-cart {
+.container-header i {
     font-size: 25px;
     margin-bottom: -10px;
 }

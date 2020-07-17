@@ -1,0 +1,75 @@
+.section-menu {
+    height: 35px;
+    width: 246px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ebebeb;
+    color: #6f6e6e;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    margin-top: 18px;
+}
+.section-menu-first {
+    margin-top: 0;
+}
+.section-menu::before {
+    content: '';
+    width: 5px;
+    height: 37px;
+    background-color: #ef5b70;
+    margin-right: 11px;
+}
+.checkbox-menu1,
+.checkbox-menu2,
+.checkbox-menu3 {
+    display: none;
+}
+.content-menu1,
+.content-menu2,
+.content-menu3 {
+    width: 246px;
+    display: none;
+}
+.name-section-menu {
+    width: 74px;
+}
+.caret-down{
+    margin-left: 137px;
+}
+.caret-up {
+    display: none;
+}
+.checkbox-menu1:checked ~ .content-menu1, 
+.checkbox-menu2:checked ~ .content-menu2, 
+.checkbox-menu3:checked ~ .content-menu3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.checkbox-menu1:checked + label .section-menu, 
+.checkbox-menu2:checked + label .section-menu, 
+.checkbox-menu3:checked + label .section-menu {
+    color: #ef5b70;
+}
+
+.checkbox-menu1:checked + label .caret-up,
+.checkbox-menu2:checked + label .caret-up,
+.checkbox-menu3:checked + label .caret-up {
+    display: block;
+    margin-left: 137px;
+}
+.checkbox-menu1:checked + label .caret-down,
+.checkbox-menu2:checked + label .caret-down,
+.checkbox-menu3:checked + label .caret-down {
+    display: none;
+}
+.link-left-nav {
+    display: block;
+    margin-top: 22px;
+    margin-left: 16px;
+    color: #6f6e6e;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+}

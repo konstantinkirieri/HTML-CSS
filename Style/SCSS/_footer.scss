@@ -1,0 +1,86 @@
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    min-height: 458px;
+    @media (max-width: 903px) {
+        justify-content: space-evenly;
+    }
+}
+
+.about-brand {
+    margin-top: 109px;
+    width: 427px;
+    @media (max-width: 903px) {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+}
+
+.text-footer {
+    color: #898989;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    margin-top: 30px;
+}
+
+.footer-menu {
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 64px;
+    @media (max-width: 491px) {
+        justify-content: space-evenly;
+    }
+    @media (max-width: 903px) {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+}
+
+h4 {
+    color: #f16d7f;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.company {
+    // margin-left: 64px;
+    margin-top: 123px;
+}
+
+.information {
+    margin-top: 123px;
+    margin-left: 15px;
+}
+
+.shop-category {
+    margin-top: 123px;
+    margin-left: 15px;
+}
+
+.menu-footer {
+    margin-top: 45px;
+}
+
+.list-footer {
+    list-style-type: none;
+    margin-bottom: 25px;
+}
+
+.link-footer {
+    color: #898989;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.link-footer:hover {
+    color: #f16d7f;
+}
+
+.footer-brand {
+    color: #3e3e40;
+}
