@@ -197,7 +197,7 @@ nav {
   color: #f16d7f; }
 
 .collection-container {
-  margin-top: 98px;
+  margin-top: 99px;
   display: grid;
   grid-template: repeat(3, 261px)/repeat(2, 560px);
   grid-gap: 20px;
