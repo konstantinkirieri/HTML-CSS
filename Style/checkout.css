@@ -169,8 +169,10 @@ nav {
 .location-track {
   font-size: 14px;
   line-height: 20px;
-  color: #636363;
-  font-weight: 300; }
+  font-weight: 300;
+  color: #636363; }
+  .location-track a {
+    color: #636363; }
 
 .location-track span {
   font-weight: 700;
@@ -240,6 +242,9 @@ nav {
           color: #4a4a4a;
           font-size: 14px;
           font-weight: 700; }
+        .checkout .shipping-adress .shipping-adress-left form ul + input:hover {
+          color: #f16d7f;
+          box-shadow: 0 5px 8px rgba(0, 0, 0, 0.16); }
     .checkout .shipping-adress .shipping-adress-right {
       flex-basis: 50%;
       color: #222222;
@@ -259,7 +264,10 @@ nav {
           width: 390px;
           height: 45px;
           border: 1px solid #eaeaea;
-          background-color: #ffffff; }
+          background-color: #ffffff;
+          box-sizing: border-box;
+          padding-left: 15px;
+          padding-right: 15px; }
           @media (max-width: 450px) {
             .checkout .shipping-adress .shipping-adress-right form input {
               width: 260px; } }
@@ -274,6 +282,9 @@ nav {
           color: #4a4a4a;
           font-size: 14px;
           font-weight: 700; }
+        .checkout .shipping-adress .shipping-adress-right form .adressButton:hover {
+          color: #f16d7f;
+          box-shadow: 0 5px 8px rgba(0, 0, 0, 0.16); }
         .checkout .shipping-adress .shipping-adress-right form .adressButton + span {
           margin-left: 32px;
           color: #222222;
@@ -283,10 +294,10 @@ nav {
 
 .reviews {
   min-height: 438px;
-  background: url(../../Img/block4/bcgimg.jpg) 50% 0 no-repeat; }
+  background: url(../Img/block4/bcgimg.jpg) 50% 0 no-repeat; }
   @media (max-width: 1140px) {
     .reviews {
-      background: url(../../Img/block4/bcgimg.jpg) 0 50% no-repeat;
+      background: url(../Img/block4/bcgimg.jpg) 0 50% no-repeat;
       background-size: cover; } }
 
 .reviews-container {

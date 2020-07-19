@@ -1,0 +1,140 @@
+.catalog-container {
+  margin-top: 100px;
+}
+
+h2 {
+  text-align: center;
+  color: #222222;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 0.75px;
+}
+
+.p-catalog {
+  margin-top: 16px;
+  text-align: center;
+  color: #9f9f9f;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.35px;
+}
+
+.items {
+  margin-top: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  @media (max-width: 1190px) {
+    justify-content: space-evenly;
+  }
+}
+
+.item {
+  width: 261px;
+  height: 364px;
+  position: relative;
+  @media (min-width: 1104px) {
+    &:not(:nth-child(-n + 4)) {
+      margin-top: 39px;
+    }
+    &:not(:nth-child(4n + 1)) {
+      margin-left: 10px;
+    }
+    &:not(:nth-child(4n)) {
+      margin-right: 10px;
+    }
+  }
+  @media (max-width: 1103px) {
+    &:not(:nth-child(-n + 3)) {
+      margin-top: 39px;
+    }
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  @media (max-width: 842px) {
+    &:not(:nth-child(-n + 2)) {
+      margin-top: 39px;
+    }
+  }
+  @media (max-width: 561px) {
+    &:not(:first-child) {
+      margin-top: 39px;
+    }
+  }
+}
+
+.item-bay {
+  width: inherit;
+  height: 280px;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  display: none;
+}
+
+.item-batton {
+  display: block;
+  margin: 98px auto;
+  width: 121px;
+  height: 37px;
+  border: 1px solid #ffffff;
+}
+
+.content-item-batton {
+  display: block;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 700;
+  padding: 10px 15px;
+}
+
+.content-item-batton i {
+  font-size: 16px;
+}
+
+.item:hover {
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.16);
+}
+
+.item:hover .item-bay {
+  display: block;
+}
+
+.item img {
+  width: 261px;
+  height: 280px;
+}
+
+.name-item {
+  color: #222222;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 13px 14px 0 14px;
+}
+
+.price-item {
+  color: #f16d7f;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 13px 14px 0 14px;
+}
+
+.all-items {
+  display: block;
+  margin: 58px auto;
+  width: 212px;
+  height: 48px;
+  background-color: #f16d7f;
+}
+
+.all-items-batton {
+  padding-left: 24px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 47px;
+}
+
+.all-items-batton i {
+  margin-left: 9px;
+}

@@ -1,0 +1,62 @@
+.promo {
+    height: 613px;
+    background: #e8e8e8;
+    @media (max-width: 700px) {
+        height: 200px;
+    }
+}
+
+.container-backimg {
+    height: inherit;
+    background: url(../Img/Layer_24.jpg) 0 100% no-repeat;
+    @media (max-width: 1139px) {
+        background-position: 50% 100%;
+    }
+    @media (max-width: 700px) {
+        background: inherit;
+    }
+}
+
+.content-promo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 92px;
+    border-left: 12px solid #f16d7f;
+}
+
+.container-promo {
+    padding-top: 224px;
+    height: 389px;
+    @media (max-width: 700px) {
+        padding-top: 50px;
+        padding-left: 30px;
+        padding-right: 30px;
+        height: 150px;
+    }
+    @media (max-width: 429px) {
+        padding-top: 22.5px;
+    }
+    @media (max-width: 371px) {
+        padding-top: 10px;
+    }
+}
+
+.promo-one {
+    color: #222222;
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 45px;
+    padding-left: 12px;
+}
+
+.promo-two {
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 30px;
+    padding-left: 12px;
+}
+
+.promo-two span {
+    color: #f16d7f;
+}

@@ -169,8 +169,10 @@ nav {
 .location-track {
   font-size: 14px;
   line-height: 20px;
-  color: #636363;
-  font-weight: 300; }
+  font-weight: 300;
+  color: #636363; }
+  .location-track a {
+    color: #636363; }
 
 .location-track span {
   font-weight: 700;
@@ -529,18 +531,18 @@ nav {
         .special-conditions .special-conditio-container .special-condition:last-child {
           margin-bottom: 50px; } }
     .special-conditions .special-conditio-container .special-condition1 {
-      background: url(../../Img/block3/Forma_1.png) 50% 30% no-repeat; }
+      background: url(../Img/block3/Forma_1.png) 50% 30% no-repeat; }
     .special-conditions .special-conditio-container .special-condition2 {
-      background: url(../../Img/block3/Forma_2.png) 50% 30% no-repeat; }
+      background: url(../Img/block3/Forma_2.png) 50% 30% no-repeat; }
     .special-conditions .special-conditio-container .special-condition3 {
-      background: url(../../Img/block3/Forma_3.png) 50% 30% no-repeat; }
+      background: url(../Img/block3/Forma_3.png) 50% 30% no-repeat; }
 
 .reviews {
   min-height: 438px;
-  background: url(../../Img/block4/bcgimg.jpg) 50% 0 no-repeat; }
+  background: url(../Img/block4/bcgimg.jpg) 50% 0 no-repeat; }
   @media (max-width: 1140px) {
     .reviews {
-      background: url(../../Img/block4/bcgimg.jpg) 0 50% no-repeat;
+      background: url(../Img/block4/bcgimg.jpg) 0 50% no-repeat;
       background-size: cover; } }
 
 .reviews-container {

@@ -1,0 +1,159 @@
+.collection-container {
+    margin-top: 98px;
+    display: grid;
+    grid-template: repeat(3, 261px) / repeat(2, 560px);
+    grid-gap: 20px;
+    grid-template-areas: 
+    "men women"
+    "men kids"
+    "accesories kids";
+    @media (max-width: 1139px) {
+        width: 855px;
+        grid-template: repeat(3, 195.75px) / repeat(2, 420px);
+        grid-gap: 15px;
+        grid-template-areas: 
+        "men women"
+        "men kids"
+        "accesories kids";
+    }
+    @media (max-width: 854px) {
+        width: 560px;
+        grid-template: repeat(6, 261px) / repeat(1, 560px);
+        grid-template-areas: 
+        "men"
+        "men"
+        "accesories"
+        "women"
+        "kids"
+        "kids";
+    }
+    @media (max-width: 599px) {
+        grid-template: repeat(6, 195.75px) / repeat(1, 420px);
+        grid-template-areas: 
+        "men"
+        "men"
+        "accesories"
+        "women"
+        "kids"
+        "kids";
+        width: 420px;
+    }
+    @media (max-width: 440px) {
+        grid-template: repeat(6, 140px) / repeat(1, 300px);
+        grid-gap: 10px;
+        grid-template-areas: 
+        "men"
+        "men"
+        "accesories"
+        "women"
+        "kids"
+        "kids";
+        width: 300px;
+    }
+}
+
+.men {
+    grid-area: men;
+    width: 560px;
+    height: 542px;
+    background: url(../Img/block1/Layer_30.jpg) no-repeat;
+    @media (min-width: 854px) and (max-width: 1139px) {
+        width: 420px;
+        height: 406.5px;
+        background-size: contain;
+    }
+    @media (max-width: 599px) {
+        width: 420px;
+        height: 406.5px;
+        background-size: contain;
+    }
+    @media (max-width: 440px) {
+        width: 300px;
+        height: 290px;
+    }
+}
+
+.accesories {
+    grid-area: accesories;
+    left: 0;
+    bottom: 0;
+    width: 560px;
+    height: 261px;
+    background: url(../Img/block1/Layer_33.jpg) no-repeat;
+    @media (min-width: 854px) and (max-width: 1139px) {
+        width: 420px;
+        height: 195.75px;
+        background-size: contain;
+    }
+    @media (max-width: 599px) {
+        width: 420px;
+        height: 195.75px;
+        background-size: contain;
+    }
+    @media (max-width: 440px) {
+        width: 300px;
+        height: 140px;
+    }
+}
+
+.women {
+    grid-area: women;
+    top: 0;
+    right: 0;
+    width: 560px;
+    height: 261px;
+    background: url(../Img/block1/Layer_32.jpg) no-repeat;
+    @media (min-width: 854px) and (max-width: 1139px) {
+        width: 420px;
+        height: 195.75px;
+        background-size: contain;
+    }
+    @media (max-width: 599px) {
+        width: 420px;
+        height: 195.75px;
+        background-size: contain;
+    }
+    @media (max-width: 440px) {
+        width: 300px;
+        height: 140px;
+    }
+}
+
+.kids {
+    grid-area: kids;
+    right: 0;
+    bottom: 0;
+    width: 560px;
+    height: 542px;
+    background: url(../Img/block1/Layer_31.jpg) no-repeat;
+    @media (min-width: 854px) and (max-width: 1139px) {
+        width: 420px;
+        height: 406.5px;
+        background-size: contain;
+    }
+    @media (max-width: 599px) {
+        width: 420px;
+        height: 406.5px;
+        background-size: contain;
+    }
+    @media (max-width: 440px) {
+        width: 300px;
+        height: 290px;
+    }
+}
+
+.collection-name {
+    margin-top: 26px;
+    display: inline-block;
+    padding: 16px 19px;
+    background-color: #ffffff;
+    color: #222222;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.collection-name span {
+    color: #f16d7f;
+    font-size: 30px;
+    letter-spacing: 0.75px;
+}

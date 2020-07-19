@@ -30,8 +30,11 @@
 .location-track {
     font-size: 14px;
     line-height: 20px;
-    color: #636363;
     font-weight: 300;
+    color: #636363;
+    a {
+        color: #636363;
+    }
 }
 
 .location-track span {
